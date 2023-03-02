@@ -1,0 +1,24 @@
+// const express = require('express')
+// const app = express()
+// app.use(express.urlencoded({ extended: false }))
+// app.get('/', (req, res) => {
+//     res.send(`
+//     <form action="/answer" method="POST">
+//     <p>what is 2+2
+// </p>
+// <input name="answer" autocomplete="off">
+// <button>submit</button>
+//     `)
+// })
+// app.post('/answer', function(req, res) {
+//     if (req.body.answer == 4) {
+//         res.send(`<p>correct</p> 
+//         <a href="/">home</a>`)
+
+//     } else {
+//         res.send(`<p>incorrect</p>  <a href="/">home</a>`)
+//     }
+
+// })
+// app.listen(3000)
+"mongodb+srv://application:subashtamilvanan@cluster0.zjs1uqi.mongodb.net/myApp?retryWrites=true&w=majority"
